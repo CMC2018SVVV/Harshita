@@ -10,6 +10,7 @@
 #include<math.h>
 #include<iomanip.h>
 //using namespace std;
+//Methods
 void cash();
 void Deposit();
 void Withdraw();
@@ -78,6 +79,8 @@ char namei[10],fnamei[10],addressi[10];
 char codei[15],passi[9];
 
 char acc[15],pa[9];
+
+//Classes
 class Bank{
 public:
 	long int damount;
@@ -3024,7 +3027,7 @@ floodfill(341,360,0);
 
 
 
-//**************************************************EMPLOYEE OPEN ***********************************************
+//EMPLOYEE OPEN
 class employeee:public Bank
 {
 public:
